@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: 
+        url("fontes/idroid.otf") format("opentype"),
+        
+}
+@font-face {
+    font-family: bebas;
+    src: url("fontes/bebasneue.ttf") format("truetype");
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C5EBD6;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    margin: 6px;
+}
+
+h2 {
+    margin: 6px;
+}
+
+p {
+    line-height: 30px;
+    text-indent: 30px;
+    margin: 6px;
+}
+header {
+    background-image: linear-gradient(#29975B, #1F7E4A, #176A3C, #0E512C);
+    font-family: bebas, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+}
+
+header > h1 {
+    font-size: 40px;
+    
+}
+
+header > h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 10px 10px 76px 10px;
+    
+}
+
+nav {
+    padding-top: 20px;
+}
+
+nav > a {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+ }
+
+ nav > a:hover {
+    background-color: #1d925b;
+    border-radius: 10px 10px;
+    padding: 8px;
+ }
+
+header > nav {
+    text-align: left;
+ }
+
+  main {
+    background-color: white;
+    margin: 0px 80px ;
+    padding: 1% 0px;
+    
+}  
+
+main > h1 {
+    font-family: idroid, sans-serif;
+    margin: 20px;
+    
+}
+
+p > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: bebas, sans-serif;
+    color: black;
+    background-color: #8be9b5;
+}
+
+p > a::after {
+    content:"🔗";
+}
+
+main > h2 {
+    font-family: idroid;
+    margin: 20px;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+
+}
+
+.video {
+    margin: 0px 100px;
+
+}
+
+footer {
+    background-color: #83E1AD;
+}
+
+footer {
+    padding: 20px;
+    margin-left: 0px;
+}
